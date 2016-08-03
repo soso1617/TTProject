@@ -7,16 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		199D5031E6C0DE612AFDFD6A950FEB1D /* TTProjectView.m in Sources */ = {isa = PBXBuildFile; fileRef = DF2E0064A7848378AFE6CE142293C941 /* TTProjectView.m */; };
 		359EB248D6EE78F48266D3CEB1D7B6FC /* Pods-TTProject_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6581182663911CE79EAD641DF31C9111 /* Pods-TTProject_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		38841018E126F0E3FB6F20FE6DE49DF1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		41A71366040472AF9CA2D7CFA6CB5145 /* TTProjectView.h in Headers */ = {isa = PBXBuildFile; fileRef = BAE880BA574267D8DA3F2F781D79333C /* TTProjectView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5495BCE38D3D7045D771244F405CD986 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 		6A50ED54D96E345E5E36108779855437 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		770F2861580112311ABD11CC544EA6ED /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 50E17AFF7D5D175FE032748AB77AA703 /* ReplaceMe.m */; };
+		6DA043A50E4F75944004401E1AD9FED1 /* TTProject-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F15133ED65A5D91985586476AF25D36B /* TTProject-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CEDAC2F117BC15C0A8E961495E2C7AD /* TTProject-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DFEAE37AD70E5ECF79A693580CE350D /* TTProject-dummy.m */; };
 		AAD00B99629758D7ECC886516BE833BD /* Pods-TTProject_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 52F56A038A36799B15CD96B6D444678D /* Pods-TTProject_Example-dummy.m */; };
 		AD3407ED55493C1A22C81F458CA874DA /* Pods-TTProject_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BBDFF70CF765E0168B93A5CED4EA72A4 /* Pods-TTProject_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B5281FD0871FD240E78296AC7FF0AD76 /* TTProject-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F15133ED65A5D91985586476AF25D36B /* TTProject-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F5762E8F95D3C0BB0128DE0D99657164 /* Pods-TTProject_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BCBF6BD2F7BA168076308E95EC275BD /* Pods-TTProject_Tests-dummy.m */; };
-		FD7D8D5908FF95911367BD3B67105FF6 /* TTProject-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DFEAE37AD70E5ECF79A693580CE350D /* TTProject-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,7 +43,6 @@
 		380793EB9186BF6312A67EACD02C1AF3 /* Pods-TTProject_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TTProject_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		3DFEAE37AD70E5ECF79A693580CE350D /* TTProject-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TTProject-dummy.m"; sourceTree = "<group>"; };
 		4227F9C3749F8D43EC569C013F9E2CDE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		50E17AFF7D5D175FE032748AB77AA703 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
 		52F56A038A36799B15CD96B6D444678D /* Pods-TTProject_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TTProject_Example-dummy.m"; sourceTree = "<group>"; };
 		5CDF5643ED6B44112C7222FCB67A22EA /* TTProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TTProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6537160E7E623D84376166E33D7BCFF5 /* TTProject.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TTProject.xcconfig; sourceTree = "<group>"; };
@@ -54,10 +54,12 @@
 		8299ED81805C4DFA10C29A1A9265C589 /* Pods-TTProject_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TTProject_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B5FD0A74CA25C45634B1FEA41FB535D9 /* Pods_TTProject_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TTProject_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAE880BA574267D8DA3F2F781D79333C /* TTProjectView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TTProjectView.h; sourceTree = "<group>"; };
 		BBDFF70CF765E0168B93A5CED4EA72A4 /* Pods-TTProject_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TTProject_Tests-umbrella.h"; sourceTree = "<group>"; };
 		CA132585BEB87BDCE1AF48E11F740175 /* Pods_TTProject_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TTProject_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		D6B287B26DB03F0D1C24F6E8CE6D35F4 /* Pods-TTProject_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TTProject_Example.modulemap"; sourceTree = "<group>"; };
+		DF2E0064A7848378AFE6CE142293C941 /* TTProjectView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TTProjectView.m; sourceTree = "<group>"; };
 		E685B03CD112D60785778C2A1EF6F72B /* Pods-TTProject_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TTProject_Example.release.xcconfig"; sourceTree = "<group>"; };
 		E8950CAF4610B4E928139E058BA94E1C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F15133ED65A5D91985586476AF25D36B /* TTProject-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TTProject-umbrella.h"; sourceTree = "<group>"; };
@@ -118,22 +120,6 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		42A3B08B2082521F02EEAB778DD475BE /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				50E17AFF7D5D175FE032748AB77AA703 /* ReplaceMe.m */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		523249CECB2AEF803BEC025666CD47AA /* TTProject */ = {
-			isa = PBXGroup;
-			children = (
-				42A3B08B2082521F02EEAB778DD475BE /* Classes */,
-			);
-			path = TTProject;
-			sourceTree = "<group>";
-		};
 		705B5AEC7874956DCC8767E0EEF6BA5F /* Pods-TTProject_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -187,6 +173,15 @@
 			path = "Example/Pods/Target Support Files/TTProject";
 			sourceTree = "<group>";
 		};
+		961834BC179E642A148D284E330BE9AA /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				BAE880BA574267D8DA3F2F781D79333C /* TTProjectView.h */,
+				DF2E0064A7848378AFE6CE142293C941 /* TTProjectView.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		A50AC95704E69EA76A12FBA5AB8001F1 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -200,7 +195,7 @@
 			isa = PBXGroup;
 			children = (
 				8C1C0B446D7C79A3D92BA6F7C4CE3D68 /* Support Files */,
-				523249CECB2AEF803BEC025666CD47AA /* TTProject */,
+				C8D12958229F9F90C9D95AE6836AA29B /* TTProject */,
 			);
 			name = TTProject;
 			path = ../..;
@@ -222,6 +217,14 @@
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
+		C8D12958229F9F90C9D95AE6836AA29B /* TTProject */ = {
+			isa = PBXGroup;
+			children = (
+				961834BC179E642A148D284E330BE9AA /* Classes */,
+			);
+			path = TTProject;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -233,19 +236,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		94DD4C9D6A0F39BCD80339172B2D6914 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DA043A50E4F75944004401E1AD9FED1 /* TTProject-umbrella.h in Headers */,
+				41A71366040472AF9CA2D7CFA6CB5145 /* TTProjectView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D7FD4959B1EF9A4BDCFC92C3A6BC64AE /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				AD3407ED55493C1A22C81F458CA874DA /* Pods-TTProject_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F8F4D7CDFDD7B61E45A8F7CB0F61707A /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B5281FD0871FD240E78296AC7FF0AD76 /* TTProject-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,9 +277,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EC3CA60286051EC007094C6C5B1EDF25 /* Build configuration list for PBXNativeTarget "TTProject" */;
 			buildPhases = (
-				6D89C10878350386AE1D0B9958D7F284 /* Sources */,
+				AD892A53995D29D97841F4888F6C2AA6 /* Sources */,
 				8CF9F902421C35C86A8FD6D32F1BFD75 /* Frameworks */,
-				F8F4D7CDFDD7B61E45A8F7CB0F61707A /* Headers */,
+				94DD4C9D6A0F39BCD80339172B2D6914 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -341,20 +345,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6D89C10878350386AE1D0B9958D7F284 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				770F2861580112311ABD11CC544EA6ED /* ReplaceMe.m in Sources */,
-				FD7D8D5908FF95911367BD3B67105FF6 /* TTProject-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		9DBEDE64CED451F92B930C55CB085E87 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				F5762E8F95D3C0BB0128DE0D99657164 /* Pods-TTProject_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD892A53995D29D97841F4888F6C2AA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CEDAC2F117BC15C0A8E961495E2C7AD /* TTProject-dummy.m in Sources */,
+				199D5031E6C0DE612AFDFD6A950FEB1D /* TTProjectView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

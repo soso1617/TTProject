@@ -3,16 +3,16 @@
   "version": "0.1.0",
   "summary": "A short description of TTProject.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/TTProject",
+  "homepage": "https://github.com/soso1617/TTProject",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "SoSo": "eric.x.zhang@disney.com"
+    "SoSo": "eric_roger@126.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/TTProject.git",
+    "git": "https://github.com/soso1617/TTProject.git",
     "tag": "0.1.0"
   },
   "platforms": {
