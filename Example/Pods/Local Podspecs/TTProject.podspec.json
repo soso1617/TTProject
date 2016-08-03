@@ -1,0 +1,22 @@
+{
+  "name": "TTProject",
+  "version": "0.1.0",
+  "summary": "A short description of TTProject.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/TTProject",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "SoSo": "eric.x.zhang@disney.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/TTProject.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "TTProject/Classes/**/*"
+}
